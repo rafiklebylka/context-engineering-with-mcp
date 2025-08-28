@@ -8,14 +8,82 @@ The goal: give you a **repeatable, error-free way to initialize and run any proj
 
 ---
 
-## 📚 What You’ll Find
+## 📚 What You'll Find
 
-* \`\` → Defines the Markdown-first folder/file structure (README, CONTEXT, TASKS, WORKFLOW, DECISIONS, ROADMAP, docs, meta, etc.).
-* \`\` → Defines how to initialize new projects using MCPs, including handling PRDs, `instructions.md` folders, or any `.md` files.
+1. **project_skeleton.md** → Defines the Markdown-first folder/file structure (README, CONTEXT, TASKS, WORKFLOW, DECISIONS, ROADMAP, docs, meta, etc.).
+2. **system_prompt.md** → Defines how to initialize new projects using MCPs, including handling PRDs, instructions.md folders, or any .md files.
 
-Together, these files let you **bootstrap new projects in minutes**, with built-in context-engineering best practices.
+Together, these files let you bootstrap new projects in minutes, with built-in context-engineering best practices.
 
----
+## 🏗️ Project Skeleton Deep Dive
+
+The project_skeleton.md defines a comprehensive 23-file structure that turns any empty folder into a fully-organized, MCP-ready project:
+
+1. **Core Files (Root Level)**
+   ```bash
+   README.md - Project overview with badges, quickstart, and framework declarations
+   CONTEXT.md - Background, goals, constraints, and project initialization log
+   TASKS.md - Task breakdown with MCP tags (#mcp:TaskManager priority:high)
+   WORKFLOW.md - Sequential steps template with Input/Action/Output/MCPs/Tests columns
+   DECISIONS.md - Decision log with rationale and ClearThought references
+   ROADMAP.md - Milestones with concrete deliverables and acceptance criteria
+   ```
+
+2. **Documentation Folder (docs/)**
+   ```bash
+   SETUP.md - Complete reproduction steps (install, build, run, environment)
+   USAGE.md - How to use the project + MCP workflow integration guides
+   API.md - Endpoints with examples and tests (if applicable)
+   GLOSSARY.md - Terms and definitions
+   ```
+
+3. **Meta Control Folder (meta/)**
+   ```bash
+   PROMPT_PROFILE.md - Master AI role definition for the project
+   GLOBAL_PROMPTS.md - Reusable templates for add/edit/fix/delete operations
+   CONTEXT7_LOG.md - Context memory entries and framework templates
+   TASKMANAGER_LOG.md - Task execution history and status tracking
+   MEMORYBANK_LOG.md - Persistent facts and cross-project knowledge
+   ```
+
+4. **Quality Assurance**
+   * CI workflows - GitHub Actions for build/test/lint pipelines
+   * Template enforcement - Code comment standards and file headers
+   * MCP integration points - Explicit tags and parsing hints throughout
+
+The skeleton ensures every generated project is buildable, testable, and fully documented from day one.
+
+## 🤖 System Prompt Architecture
+The system_prompt.md creates an autonomous project architect that handles multiple initialization scenarios:
+
+1. **Intelligent Context Detection**
+   * Empty folder → Full interactive Q&A (name, frameworks, constraints, audience)
+   * PRD.md present → Auto-parse goals, features, milestones into CONTEXT/TASKS/ROADMAP
+   * Multiple instructions.md → Parse all docs, ask only for missing details
+   * Existing project → Offer to reuse files or start fresh
+
+2. **MCP Integration Workflow**
+   * Context7 → Maintains global context and framework knowledge
+   * TaskManager → Handles task creation, priorities, and status updates
+   * SequentialThinking → Maps dependencies and execution order
+   * ClearThought → Logs decisions with rationale and alternatives
+   * MemoryBank → Persists important facts across sessions
+
+3. **Built-in Quality Gates**
+   * Acceptance criteria → 10-point checklist ensures complete initialization
+   * Template consistency → Uses meta/GLOBAL_PROMPTS.md for all operations
+   * Error prevention → Files must be buildable, testable, with inline documentation
+   * Traceability → Every action logs to appropriate MCP server
+
+4. **Universal Command Interface**
+   Once initialized, the system responds to natural language:
+   * add user authentication → Creates feature + updates tasks/decisions/roadmap
+   * fix login error → Applies debugging template + logs resolution
+   * edit README quickstart → Updates docs + syncs related files
+   * delete payment gateway → Removes feature + cleans up dependencies
+
+The prompt transforms any AI assistant into a context-aware project manager that maintains consistency across all files and decisions.
+
 
 ## 🔑 Before You Begin (Required Knowledge)
 
