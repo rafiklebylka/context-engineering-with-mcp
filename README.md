@@ -78,32 +78,32 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
    * Point it to the MCP config JSON where your servers are registered.
    * Example config snippet:
 
-   ```json
+   ```bash
     {
       "servers": {
         "Context7": {
           "command": "npx",
-          "args": \["-y", "@upstash/context7-mcp\@latest"],
+          "args": "-y", "@upstash/context7-mcp\@latest",
           "type": "stdio"
         },
         "SequentialThinking": {
           "command": "npx",
-          "args": \["-y", "@modelcontextprotocol/server-sequential-thinking"],
+          "args": "-y", "@modelcontextprotocol/server-sequential-thinking",
           "type": "stdio"
         },
         "TaskManager": {
           "command": "npx",
-          "args": \["-y", "@kazuph/mcp-taskmanager"],
+          "args": "-y", "@kazuph/mcp-taskmanager",
           "type": "stdio"
         },
         "ClearThought": {
           "type": "stdio",
           "command": "node",
-          "args": \["\[Path]/clear-thought-mcp-server/dist/index.js"]
+          "args": "[Path]/clear-thought-mcp-server/dist/index.js"
         },
         "MemoryBank": {
           "command": "node",
-          "args": \["\[Path]/memory-bank-mcp/dist/main/index.js"],
+          "args": "[Path]/memory-bank-mcp/dist/main/index.js",
           "env": {},
           "type": "stdio"
         }
