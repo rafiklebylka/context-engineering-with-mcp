@@ -44,10 +44,10 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
     ```bash
       git clone [https://github.com/rafiklebylka/context-engineering-with-mcp.git](https://github.com/rafiklebylka/context-engineering-with-mcp.git)
 
-    ````
+    ```
     ```bash
       cd context-engineering-with-mcp
-    ````
+    ```
 
 
 2. **Install Node.js (>=18) and npm**
@@ -71,14 +71,14 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
     # Memory Bank
     git clone https://github.com/alioshr/memory-bank-mcp
     cd memory-bank-mcp && npm install && npm run build
-  ````
+  ```
 
 4. **Configure your AI assistant (e.g., Copilot, Claude Desktop, etc.)**
 
    * Point it to the MCP config JSON where your servers are registered.
    * Example config snippet:
 
-   ```bash
+  ```bash
     {
       "servers": {
         "Context7": {
@@ -109,8 +109,8 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
         }
       }
     }
-  ````
-
+  ```
+---
 ## 🚀 Usage
 
 ### 1. Initialize a New Project
