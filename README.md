@@ -41,20 +41,20 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
 
 1. **Clone this repo**
 
-  ```bash
-    git clone [https://github.com/rafiklebylka/context-engineering-with-mcp.git](https://github.com/rafiklebylka/context-engineering-with-mcp.git)
+    ```bash
+      git clone [https://github.com/rafiklebylka/context-engineering-with-mcp.git](https://github.com/rafiklebylka/context-engineering-with-mcp.git)
 
-  ````
-  ```bash
-    cd context-engineering-with-mcp
-  ````
+    ````
+    ```bash
+      cd context-engineering-with-mcp
+    ````
 
 
 2. **Install Node.js (>=18) and npm**
    * [Download Node.js](https://nodejs.org) if you don’t already have it.
 
 3. **Install the MCP servers you want** (example set):
-   ```bash
+  ```bash
     # Context7 (context memory)
     npx -y @upstash/context7-mcp@latest
 
@@ -109,10 +109,7 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
         }
       }
     }
-  ```
-````
-
----
+  ````
 
 ## 🚀 Usage
 
