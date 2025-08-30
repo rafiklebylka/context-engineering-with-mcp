@@ -115,9 +115,10 @@ Together, these files let you **bootstrap new projects in minutes**, with built-
 
 ### 1. Initialize a New Project
 Type in your AI assistant:
-```bash
-initialize project
-````
+
+  ```bash
+    initialize project
+  ```
 
 * If the folder is empty → you’ll be asked interactive questions.
 * If the folder has `prd.md` → the PRD is parsed into CONTEXT.md, TASKS.md, ROADMAP.md.
