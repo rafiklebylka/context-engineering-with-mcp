@@ -18,7 +18,9 @@ Welcome to the **Smart Enterprise-Light Project Skeleton**. This repository prov
 
 ## 📦 What You’ll Find
 
-Inside this repository, you’ll find:
+This seed repository starts with just **3 core files** (`README.md`, `system_prompt.md`, `project_skeleton.md`).
+
+When you run initialization, it expands into the **full Smart Enterprise-Light skeleton**:
 
 * **Unified project skeleton** ready for all scales (solo → enterprise).
 * **Context-first structure** with CONTEXT.md referencing BUSINESS.md.
@@ -163,6 +165,21 @@ cd memory-bank-mcp && npm install && npm run build
 
 ## 🚀 Usage
 
+### 0. Initialize a New Project
+
+Type in your AI assistant this prompt:
+
+```bash
+initialize project
+```
+
+* If the folder is empty → you’ll be asked interactive questions.
+* If the folder has `prd.md` → the PRD is parsed into CONTEXT.md, TASKS.md, ROADMAP.md.
+* If the folder has multiple `.md` instructions → they’ll be parsed for context, missing info will be asked.
+* If the folder already has files → you’ll be asked to reuse or overwrite.
+
+✅ Result: A full project skeleton + docs + meta logs will be created.
+
 > 💡 **Example Walkthrough:**
 >
 > * **Q:** Project name? → `ShopEasy`
@@ -194,7 +211,7 @@ edit README.md to add quickstart section
 delete obsolete utils/logger.js
 ```
 
-### 3. Advanced Examples
+### 3. Advanced Examples Prompts
 
 ```bash
 initialize project using prd.md
