@@ -2,7 +2,7 @@
 
 Welcome to the **Smart Enterprise-Light Project Skeleton**. This repository provides a **unified Markdown-first structure** designed to work seamlessly with **MCP servers** while scaling from **solo developers → startups → enterprise teams** without ever needing to switch skeletons.
 
-> ⚠️ **Note**: This project is still under development and testing. It is not yet complete, and the structure or files may change.
+> ⚠️ **Note**: This project is still under development and testing. It is not yet complete, and the structure may change.
 
 ---
 
