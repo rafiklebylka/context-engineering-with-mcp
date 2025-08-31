@@ -1,4 +1,4 @@
-# 🧩 Context Engineering with MCP — Smart Enterprise-Light
+# 🧩 Context Engineering with MCP - Smart Enterprise-Light
 
 Welcome to the **Smart Enterprise-Light Project Skeleton**. This repository provides a **unified Markdown-first structure** designed to work seamlessly with **MCP servers** while scaling from **solo developers → startups → enterprise teams** without ever needing to switch skeletons.
 
@@ -202,7 +202,7 @@ All updates are written back into `TASKS.md`.
 
 ### 2. Adding, Editing, Fixing, Deleting
 
-Use natural prompts — system applies **meta/GLOBAL\_PROMPTS.md**:
+Use natural prompts - system applies **meta/GLOBAL\_PROMPTS.md**:
 
 ```bash
 add user authentication feature
@@ -222,7 +222,7 @@ delete payment gateway integration
 
 ---
 
-## 🧠 9 Context Engineering Layers — Compliance
+## 🧠 9 Context Engineering Layers - Compliance
 
 | Layer                 | Implementation             | Evidence                                                            |
 | --------------------- | -------------------------- | ------------------------------------------------------------------- |
@@ -300,7 +300,7 @@ delete payment gateway integration
 
 ## 🎯 The Goal
 
-This repository’s goal is to **unify context engineering best practices with MCP-native project skeletons** so developers, startups, and enterprises can work with **one structure that adapts intelligently** to their scale — eliminating mistakes, context pollution, and migration pain.
+This repository’s goal is to **unify context engineering best practices with MCP-native project skeletons** so developers, startups, and enterprises can work with **one structure that adapts intelligently** to their scale - eliminating mistakes, context pollution, and migration pain.
 
 ---
 
