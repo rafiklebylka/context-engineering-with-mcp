@@ -79,8 +79,6 @@ project-name/
 
 To use this skeleton effectively, you should be comfortable with:
 
-* **Markdown** for structured documentation.
-* **Git/GitHub** for version control.
 * **MCP servers** (Context7, TaskManager, ClearThought, SequentialThinking, MemoryBank).
 * **Basic CI/CD** concepts (YAML-based workflows).
 * **Project documentation discipline** (keeping logs, tasks, and context updated).
