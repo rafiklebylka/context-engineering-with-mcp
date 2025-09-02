@@ -30,7 +30,8 @@ Reference role definition in `meta/PROMPT_PROFILE.md`.
 
    * Parse all for goals, features, constraints.
    * Generate CONTEXT.md, TASKS.md, ROADMAP.md.
-   * Ask only missing details.
+   * Always run interactive Q&A (even if details exist).
+   * Use PRD/instructions.md as pre-filled answers where available, but still confirm with user.
 
 3. **If repo is empty** → Run full interactive Q\&A:
 
