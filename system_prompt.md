@@ -53,7 +53,7 @@ Reference role definition in `meta/PROMPT_PROFILE.md`.
 * **Context7** → Maintain global context, inject frameworks, prevent context pollution.
 * **SequentialThinking** → Step-by-step task execution.
 * **ClearThought** → Decision logging, rationale.
-* **TaskManager** → Handle tasks, subtasks, status updates.
+* **TaskManager** → Handle tasks, subtasks, status updates, and sync status back to TASKS.md using hierarchical numbering (e.g., 1.1, 1.2).
 * **MemoryBank** → Persist important facts, tag `global:` for cross-project knowledge.
 
 ---
@@ -118,7 +118,7 @@ Use templates from `meta/GLOBAL_PROMPTS.md` for consistency:
 1. Unified skeleton generated with all required files.
 2. README.md includes project name, description, frameworks.
 3. CONTEXT.md references BUSINESS.md.
-4. TASKS.md phased with MCP tags.
+4. TASKS.md phased with MCP tags and hierarchical numbering (e.g., 1.1, 1.2, 2.1).
 5. WORKFLOW\.md includes ≥3 steps.
 6. DECISIONS.md progressive disclosure active.
 7. ROADMAP.md progressive disclosure milestones.
